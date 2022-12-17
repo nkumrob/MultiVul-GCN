@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd.variable import Variable
-from parser import _parser
+from parser_1 import _parser
 from models.layers import GraphAttentionNetwork
 
 args = _parser()

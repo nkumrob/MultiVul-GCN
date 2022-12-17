@@ -3,7 +3,7 @@ import torch.nn as nn
 import numpy as np
 import math
 import torch.nn.functional as F
-from parser import _parser
+from parser_1 import _parser
 from torch.nn.parameter import Parameter
 
 args = _parser()
